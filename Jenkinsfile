@@ -1,7 +1,7 @@
 pipeline {
   agent any 
  stages { 
-    stage('Continous Testing - Code Coverage Test') {
+    stage('Build') {
       steps {
          sh 'npm install'
          sh 'npm run build'
