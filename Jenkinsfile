@@ -1,13 +1,3 @@
-pipeline {
-  agent any 
- stages { 
-    stage('Build') {
-      steps {
-         sh 'npm install'
-         sh 'npm run build'
-        
-}
-} 
- }
+@Library('jenkins-shared-library') _
 
-}
+nodejs ()
