@@ -3,7 +3,8 @@ pipeline {
  stages { 
     stage('Continous Testing - Code Coverage Test') {
       steps {
-         sh 'npm install' 
+         sh 'npm install'
+         sh 'npm run build'
         
 }
 } 
