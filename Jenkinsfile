@@ -1,5 +1,5 @@
 pipeline {
-  agent none 
+  agent any 
  stages { 
     stage('Continous Testing - Code Coverage Test') {
       steps {
